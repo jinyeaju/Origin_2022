@@ -21,7 +21,7 @@ $(document).ready(function(){
     //#2. 반복문을 적용하면서 상단의 배열 데이터를 적용시킨다. (append() 메서드를 활용하여 해당하는 위치로 넣어준다.)
     for(v of $article){
         $("#contents").append(`
-        <article style="background-image: url(../img/${v[0]});">
+        <article style="background-image: url(./img/${v[0]});">
             <div class="orangeBg">
                 <div class="cont">
                     <h3>${v[1]}</h3>
