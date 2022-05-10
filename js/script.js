@@ -35,7 +35,6 @@ $(document).ready(function(){
             </div>
         </article>
         `);
-
     }
     $(".orangeBg").first().addClass("firstBox");
     $(".orangeBg").eq(6).addClass("twoBox");
